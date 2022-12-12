@@ -13,3 +13,9 @@ h1{
 .bordure1{
     border: red 5px solid;
 }
+
+.fond{
+    background-color: #fda500;
+    min-height: 140px;
+    margin: 10px 0;
+}
