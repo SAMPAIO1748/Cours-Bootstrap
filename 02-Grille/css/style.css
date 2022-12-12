@@ -9,3 +9,7 @@ h1{
     min-height: 70px;
     background-color: #eee;
 }
+
+.bordure1{
+    border: red 5px solid;
+}
