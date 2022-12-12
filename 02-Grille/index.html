@@ -32,22 +32,38 @@
         justify-content-start = on agence les éléments d'une div en commençant par le début (la gauche)
         justify-content-end = on agence les éléments d'une div en commençant par la fin (la droite)
         justify-content-around = on agence les élménts d'une div en créant des espaces autour de chaque élément
-        justify-content-between = on agence les éléments d'une div en créant des espaces entre chaque élément        
+        justify-content-between = on agence les éléments d'une div en créant des espaces entre chaque élément 
 
 
+        Margin & Padding
+        m = margin
+        p = paddin
 
+        mt = margin-top
+        pt = padding-top
+        mb = margin-bottom
+        pb = padding-bottom
+        ml = margin-left
+        pl = padding-left
+        mr = margin-right
+        pr = padding-right
+        mx = margin-left + margin-right
+        px = padding-left + padding-right
+        my = margin-top + margin-bottom
+        py = padding-top + padding-bottom
+
+        Associer un chiffre de 0 à 5 ou "auto";
 
     -->
 
     <div class="container">
         <h1>Découverte aux grilles de bootstrap</h1>
-
         <div class="row justify-content-center">
-
-            <div class="col-sm-12 col-md-10 col-lg-2 bordure">Zone 0</div>
-
+            <div class="col-sm-12 col-md-10 bordure">Zone 0</div>
         </div>
-
+        <div class="row">
+            <div class="col-md-10 mx-auto bordure">Zone 1</div>
+        </div>
     </div>
 </body>
 </html>
