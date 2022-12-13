@@ -1,0 +1,33 @@
+.container{
+    border: 1px solid black;
+}
+
+.rouge{
+    border: 1px solid red;
+    min-height: 70px;
+    background-color: red;
+}
+
+.bleu{
+    border: 1px solid blue;
+    min-height: 70px;
+    background-color: blue;
+}
+
+.marron{
+    border: 1px solid brown;
+    min-height: 70px;
+    background-color: brown;
+}
+
+.jaune{
+    border: 1px solid yellow;
+    min-height: 70px;
+    background-color: yellow;
+}
+
+.noir{
+    border: 1px solid black;
+    min-height: 70px;
+    background-color: black;
+}

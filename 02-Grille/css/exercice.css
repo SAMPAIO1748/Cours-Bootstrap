@@ -1,6 +1,7 @@
 .bordureRouge{
     border: 2px solid red;
     padding: 10px;
+    background-color: red;
 }
 .container{
     border: 1px solid gray;
@@ -8,16 +9,20 @@
 .bordureVerte{
     border: 2px solid green;
     padding: 10px;
+    background-color: green;
 }
 .bordureBleue{
     border: 2px solid blue;
     padding: 10px;
+    background-color: blue;
 }
 .bordureJaune{
     border: 2px solid yellow;
     padding: 10px;
+    background-color: yellow;
 }
 .bordureOrange{
     border: 2px solid orange;
     padding: 10px;
+    background-color: orange;
 }
